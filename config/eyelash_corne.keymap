@@ -13,12 +13,6 @@
 
 / {
     behaviors {
-        td0: td0 {
-            compatible = "zmk,behavior-tap-dance";
-            display-name = "Shift/Caps Lock Tap Dance";
-            #binding-cells = <0>;
-            bindings = <&kp LEFT_SHIFT>, <&kp CAPS>;
-        };
 
         rsr_vol: rsr_vol {
             compatible = "zmk,behavior-runtime-sensor-rotate";
